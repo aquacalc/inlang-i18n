@@ -38,8 +38,13 @@
 
 	// see: https://www.youtube.com/watch?v=Y6IbPfMU1xM
 	import { i, languages, language, switchLanguage } from '@inlang/sdk-js';
+	import { dataset_dev } from 'svelte/types/runtime/internal/dev.js';
 
 	// console.log(`languages: `, languages);
+	export let data;
+
+	console.log(`exported data: `, dataset_dev)
+	console.log(`language = ${language}`)
 
 	// --------------- //
 
