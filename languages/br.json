@@ -1,0 +1,10 @@
+{
+	"language": "Brasileiro",
+	"bandeira": "🇧🇷",
+	"hero": "Visualizando a qualidade da água para aquicultura",
+	"welcome": "<h1 style='color: red;'>Bem-vindo <span style='color: blue;'>ao inlang</span></h1>",
+	"p1": "Manter água de cultura saudável significa gerenciar a química da água.",
+	"p2": "Mas a química da água é um tópico técnico cheio de equações e conceitos confusos.",
+	"p3": "Esse é um ponto problemático para muitos aquicultores, especialmente em sistemas de recirculação (RAS).",
+	"block": "Uma abordagem visual torna o gerenciamento da qualidade da água (WQ) tão simples que qualquer pessoa que possa usar o Google Maps pode gerenciar seu ambiente de cultura com o Water Quality Map."
+}
