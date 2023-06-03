@@ -43,7 +43,7 @@
 	// console.log(`languages: `, languages);
 	export let data;
 
-	console.log(`exported data: `, dataset_dev)
+	console.log(`exported data: `, data)
 	console.log(`language = ${language}`)
 
 	// --------------- //
