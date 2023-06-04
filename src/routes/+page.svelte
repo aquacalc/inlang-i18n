@@ -8,10 +8,17 @@
 
 	import WqMapHarness from '$lib/wq-map/WqMapHarness.svelte';
 
+	import StepChangeTopo from '$lib/wq-map/wq-chart/scroll-step-cards/StepChangeTopo.svelte';
+	import StepPlotInitWp from '$lib/wq-map/wq-chart/scroll-step-cards/StepPlotInitWp.svelte';
+	import StepDangerUian from '$lib/wq-map/wq-chart/scroll-step-cards/StepDangerUian.svelte';
+	import StepDangerCo2 from '$lib/wq-map/wq-chart/scroll-step-cards/StepDangerCo2.svelte';
+	import StepGreenZone from '$lib/wq-map/wq-chart/scroll-step-cards/StepGreenZone.svelte';
+	import StepWhatCanYouDo from '$lib/wq-map/wq-chart/scroll-step-cards/StepWhatCanYouDo.svelte';
+	import StepOmegaArZone from '$lib/wq-map/wq-chart/scroll-step-cards/StepOmegaArZone.svelte';
+
 	import '$lib/styles/wq-step-styles.css';
 
 	let value = 0;
-	
 </script>
 
 <!-- 
@@ -49,6 +56,35 @@
 </div>
 
 <div class="section-container">
+	<div class="steps-container">
+		<Scrolly bind:value>
+			{#each stepArray as idx}
+				<div class="step" class:active={value === idx}>
+					<div
+						class="step-content"
+						style="text-align: {language === 'ar' || language === 'il' ? 'right' : 'left'};"
+					>
+						{#if idx === 0}
+							<StepChangeTopo {value} step={1} />
+						{:else if idx === 1}
+							<StepPlotInitWp {value} step={2} />
+						{:else if idx === 2}
+							<StepDangerUian {value} step={3} />
+						{:else if idx === 3}
+							<StepDangerCo2 {value} step={4} />
+						{:else if idx === 4}
+							<StepOmegaArZone {value} step={5} />
+						{:else if idx === 5}
+							<StepGreenZone {value} step={6} />
+						{:else if idx === 6}
+							<StepWhatCanYouDo {value} step={7} />
+						{/if}
+					</div>
+				</div>
+			{/each}
+			<div class="spacer" />
+		</Scrolly>
+	</div>
 	<div class="sticky">
 		<WqMapHarness step={value} />
 	</div>
