@@ -296,55 +296,6 @@
 </footer>
 
 <style>
-	.hero {
-		height: 20vh;
-		display: flex;
-		place-items: center;
-		flex-direction: column;
-		justify-content: center;
-		text-align: center;
-		/* background-color: var(--bkg-hero); */
-		background: linear-gradient(to right, #385c9e, #486bad);
-		color: #eee;
-		font-family: sans-serif;
-		margin-bottom: 1rem;
-	}
-
-	.hero h1 {
-		/* margin-top: 0; */
-		font-weight: 300;
-		font-size: 3rem;
-		color: #fff;
-	}
-
-	/* select {
-		font-size: 1.5rem;
-		border-radius: 8px;
-		padding: 2px;
-	} */
-
-	blockquote {
-		border-left: 4px solid rebeccapurple;
-		border-right: 4px solid rebeccapurple;
-		/* border-left: 4px solid var(--about-text-highlight);
-		border-right: 4px solid var(--about-text-highlight); */
-		border-radius: 8px;
-		font-family: sans-serif;
-		margin: 2rem 0;
-		padding: 0.35rem;
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
-		background-color: #ebf2fe;
-		/* background-color: var(--bkg-blockquote); */
-	}
-
-	blockquote .viz-para {
-		/* color: var(--about-text-highlight) */
-		color: #555;
-		/* color: var(--text-blockquote); */
-		padding-bottom: 0.35rem;
-	}
-
 	footer {
 		color: var(--footer-color);
 		font-size: 0.8em;
