@@ -58,9 +58,8 @@
 <nav>
 	<ul id="nav-ul" style="height: 40px;">
 		<li>
-			<a href="/" target="_blank" rel="noopener noreferrer"
-				>WQ
-				<!-- ><img id="recycle-drop-menu" src="/recycle-drop.png" alt="WQ | FAQ icon" /> WQ -->
+			<a href="https://www.wq-faq.com" target="_blank" rel="noopener noreferrer"
+				><img id="recycle-drop-menu" src="/recycle-drop.png" alt="WQ | FAQ icon" /> WQ
 				<span style="color: orange;">|</span> FAQ Blog</a
 			>
 		</li>
@@ -128,8 +127,11 @@
 		opacity: 1;
 	}
 
+	/* For i18n select in navbar */
+
 	select {
-		font-size: 1.35rem;
+		font-size: 1.15rem;
+		border: none;
 		border-radius: 8px;
 		padding: 2px;
 		background: transparent;
@@ -145,11 +147,11 @@
 		outline: none;
 	}
 
-	/* #recycle-drop-menu {
+	#recycle-drop-menu {
 		width: 16px;
 		padding-right: 2px;
 		opacity: 0.9;
-	} */
+	}
 
 	/* a #recycle-drop-menu:hover {
 		opacity: 1;
