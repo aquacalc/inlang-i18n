@@ -3,6 +3,8 @@
 	import { i, languages, language, switchLanguage } from '@inlang/sdk-js';
 
 	// console.log(`languages: `, languages);
+	
+	import '$lib/styles/wq-step-styles.css';
 </script>
 
 <!-- 
