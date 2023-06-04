@@ -32,12 +32,12 @@
 		: 'left'};"
 >
 	<section style="font-size: 1.5rem; margin: 0rem 6.15rem; line-height: 2.25rem;">
-		<p class="viz-para" style="margin-top: 0;">{i('p1')}</p>
-		<p class="viz-para" style="margin-top: 0;">{i('p2')}</p>
-		<p class="viz-para" style="margin-top: 0;">{i('p3')}</p>
+		<p class="viz-para" style="margin-top: 0;">{@html i('p1')}</p>
+		<p class="viz-para" style="margin-top: 0;">{@html i('p2')}</p>
+		<p class="viz-para" style="margin-top: 0;">{@html i('p3')}</p>
 		<blockquote>
 			<p class="viz-para" style="margin-bottom: 0; font-size: 1.35rem; line-height: 3rem;">
-				{i('block')}
+				{@html i('block')}
 			</p>
 		</blockquote>
 	</section>
