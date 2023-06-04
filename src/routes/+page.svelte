@@ -22,8 +22,6 @@
 
 	const stepArray = [0, 1, 2, 3, 4, 5, 6];
 
-
-
 	// ** -- Adjust step element attrs based on step value -- ** //
 	$: {
 		const tempSlider = document.getElementById('temp-slider');
@@ -129,8 +127,6 @@
 			aerationCheckbox.checked = false;
 		}
 	}
-
-
 </script>
 
 <!-- 
@@ -145,9 +141,9 @@
 	<h1 style="text-align: center;">{i('hero')}</h1>
 </div>
 
-<p>
+<!-- <p>
 	{@html i('welcome')}
-</p>
+</p> -->
 
 <div
 	style="font-size: 1.35rem; width: 90%; margin: 0 auto; text-align: {language === 'ar' ||
