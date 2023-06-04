@@ -71,6 +71,7 @@
 					id="langs"
 					on:change={handleLanguageSelection}
 					bind:value={selectedLang}
+					style="text-align: {language === 'ar' || language === 'il' ? 'right' : 'left'};"
 				>
 					<option value="en">English</option>
 					<option value="de">Deutsch</option>
