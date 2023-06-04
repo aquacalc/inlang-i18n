@@ -3,7 +3,7 @@
 
 	// see: https://vercel.com/docs/concepts/analytics/audiences/quickstart
 	import { dev } from '$app/environment';
-	import { inject } from '@vercel/analytics';
+	// import { inject } from '@vercel/analytics';
 
 	import { fade } from 'svelte/transition';
 	import Moon from '$lib/icons/moon.svelte';
@@ -13,36 +13,36 @@
 
 	// inject({ mode: dev ? 'development' : 'production' });
 
-	// let currentTheme = '';
+	let currentTheme = '';
 
-	// onMount(() => {
-	// 	// currentTheme = document.documentElement.dataset.theme;
-	// 	const userPrefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-	// 	const hasUserSetDarkModeManually = document.documentElement.dataset.theme == 'dark';
-	// 	if (!hasUserSetDarkModeManually) {
-	// 		setTheme(userPrefersDarkMode ? 'dark' : 'light');
-	// 	}
-	// });
+	onMount(() => {
+		// currentTheme = document.documentElement.dataset.theme;
+		const userPrefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+		const hasUserSetDarkModeManually = document.documentElement.dataset.theme == 'dark';
+		if (!hasUserSetDarkModeManually) {
+			setTheme(userPrefersDarkMode ? 'dark' : 'light');
+		}
+	});
 
-	// // see: https://www.youtube.com/watch?v=mt56gKUeppk&list=PLm_Qt4aKpfKjf77S8UD79Ockhwp_699Ms&index=20
-	// const setTheme = (theme) => {
-	// 	// document.cookie = `siteTheme=${theme};Max-Age=31536000;path="/"`;
+	// see: https://www.youtube.com/watch?v=mt56gKUeppk&list=PLm_Qt4aKpfKjf77S8UD79Ockhwp_699Ms&index=20
+	const setTheme = (theme) => {
+		// document.cookie = `siteTheme=${theme};Max-Age=31536000;path="/"`;
 
-	// 	// Access HTML tag
-	// 	document.documentElement.dataset.theme = theme;
-	// 	// Set cookie for SSR persistence
-	// 	document.cookie = `siteTheme=${theme}; max-age=31536000; path="/"`;
-	// 	// document.cookie = `siteTheme=${theme}; Max-Age=1704085200; path="/"`;
-	// 	currentTheme = theme;
-	// };
+		// Access HTML tag
+		document.documentElement.dataset.theme = theme;
+		// Set cookie for SSR persistence
+		document.cookie = `siteTheme=${theme}; max-age=31536000; path="/"`;
+		// document.cookie = `siteTheme=${theme}; Max-Age=1704085200; path="/"`;
+		currentTheme = theme;
+	};
 
 	// see: https://www.youtube.com/watch?v=Y6IbPfMU1xM
 	import { i, languages, language, switchLanguage } from '@inlang/sdk-js';
-	
+
 	// console.log(`languages: `, languages);
 
-	console.log(`exported data: `, data)
-	console.log(`language = ${language}`)
+	console.log(`exported data: `, data);
+	console.log(`language = ${language}`);
 
 	// --------------- //
 
@@ -72,19 +72,19 @@
 					on:change={handleLanguageSelection}
 					bind:value={selectedLang}
 				>
-				<option value="en">English</option>
-				<option value="de">Deutsch</option>
-				<!-- <option value="ar">اللغة العربية</option> -->
-				<option value="fr">Français</option>
-				<option value="es">Español</option>
-				<!-- <option value="il">עִברִית</option> -->
-				<option value="gr">Ελληνικά</option>
-				<option value="br">Brasileiro</option>
-				<option value="hi">हिंदी</option>
+					<option value="en">English</option>
+					<option value="de">Deutsch</option>
+					<!-- <option value="ar">اللغة العربية</option> -->
+					<option value="fr">Français</option>
+					<option value="es">Español</option>
+					<!-- <option value="il">עִברִית</option> -->
+					<option value="gr">Ελληνικά</option>
+					<option value="br">Brasileiro</option>
+					<option value="hi">हिंदी</option>
 				</select>
 			</div>
 		</li>
-		<!-- <li class="relative">
+		<li class="relative">
 			{#if currentTheme == 'light'}
 				<a class="moon" href={'#'} on:click={() => setTheme('dark')}>
 					<Moon />
@@ -94,7 +94,7 @@
 					<Sun />
 				</a>
 			{/if}
-		</li> -->
+		</li>
 	</ul>
 </nav>
 
@@ -131,14 +131,14 @@
 		font-size: 1.35rem;
 		border-radius: 8px;
 		padding: 2px;
-    background: transparent;
-    color: #ccc;
-    cursor: pointer;
+		background: transparent;
+		color: #ccc;
+		cursor: pointer;
 	}
 
-  select:hover {
-    color: #eee;
-  }
+	select:hover {
+		color: #eee;
+	}
 
 	select:focus {
 		outline: none;
