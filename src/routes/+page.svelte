@@ -3,7 +3,9 @@
 	import { i, languages, language, switchLanguage } from '@inlang/sdk-js';
 
 	// console.log(`languages: `, languages);
-	
+
+	import Scrolly from '$lib/scrolly/Scrolly.svelte';
+
 	import '$lib/styles/wq-step-styles.css';
 </script>
 
@@ -20,7 +22,7 @@
 </div>
 
 <p>
-	{@html i('welcome')} 
+	{@html i('welcome')}
 </p>
 
 <div

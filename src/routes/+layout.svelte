@@ -57,7 +57,7 @@
 </script>
 
 <nav>
-	<ul id="nav-ul" style="background-color: #555; height: 60px;">
+	<ul id="nav-ul" style="height: 40px;">
 		<li>
 			<a href="/" target="_blank" rel="noopener noreferrer"
 				>WQ
