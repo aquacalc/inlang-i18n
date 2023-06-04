@@ -1,10 +1,11 @@
 {
-	"language": "עִברִית",
+	"language": "אנגלית",
 	"flag": "🇮🇱",
-	"hero": "חזותי איכות המים בחקלאות מים",
-	"welcome": "<h1 style='color: red;'>ברוך הבא <span style='color: blue;'>ל-inlang</span></h1>",
-	"p1": "שמירה על מי תרבות בריאים פירושה ניהול כימיית המים.",
-	"p2": "אבל כימיה של מים היא נושא טכנולוגי מלא במשוואות ומושגים מבלבלים.",
-	"p3": "זו נקודת כאב עבור חקלאי מים רבים, במיוחד במערכות מחזוריות (RAS).",
-	"block": "גישה חזותית הופכת את ניהול איכות המים (WQ) לפשוט כל כך שכל מי שיכול להשתמש במפות Google יכול לנהל את סביבת התרבות שלו עם מפת איכות המים."
+	"hero": "יכולת ויזואלית של איכות מים בתחקרת דיווחים",
+	"p1": "שמירה על מים תרבותיים בריאים כוללת ניהול של כימיה מימית.",
+	"p2": "אולם, כימיה מימית היא נושא טכני מלא משוואות ומושגים מבלבלים.",
+	"p3": "זהו נקודת כאב עבור רבים מהיוצרים של מערכות אקווקלטוריות, במיוחד במערכות הסינון המחזורי (<strong style='font-weight: 400; color: var(--about-text-highlight)'>RAS</strong>).",
+	"block": "גישה ויזואלית הופכת את ניהול איכות המים לפשוט כל כך, שכל אדם שמשתמש ב-Google Maps יכול לנהל את סביבת התרבות שלו עם <span style='color: var(--about-text-highlight);'>Water Quality Map</span>.",
+	"below": "מטה, מבוא אינטראקטיבי בשישה שלבים לשליטה ויזואלית באיכות המים עם <span style='color: var(--about-text-highlight);'>Water Quality Map</span>.",
+	"one-title": "מפת טופוגרפית של ערך ה-pH"
 }
