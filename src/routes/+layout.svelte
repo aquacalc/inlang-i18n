@@ -1,15 +1,15 @@
 <script>
-	// import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
-	// // see: https://vercel.com/docs/concepts/analytics/audiences/quickstart
-	// import { dev } from '$app/environment';
-	// import { inject } from '@vercel/analytics';
+	// see: https://vercel.com/docs/concepts/analytics/audiences/quickstart
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
 
 	import { fade } from 'svelte/transition';
-	// import Moon from '$lib/icons/moon.svelte';
-	// import Sun from '$lib/icons/sun.svelte';
+	import Moon from '$lib/icons/moon.svelte';
+	import Sun from '$lib/icons/sun.svelte';
 
-	// export let data;
+	export let data;
 
 	// inject({ mode: dev ? 'development' : 'production' });
 
@@ -40,7 +40,6 @@
 	import { i, languages, language, switchLanguage } from '@inlang/sdk-js';
 	
 	// console.log(`languages: `, languages);
-	export let data;
 
 	console.log(`exported data: `, data)
 	console.log(`language = ${language}`)
