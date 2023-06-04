@@ -21,6 +21,116 @@
 	let value = 0;
 
 	const stepArray = [0, 1, 2, 3, 4, 5, 6];
+
+
+
+	// ** -- Adjust step element attrs based on step value -- ** //
+	$: {
+		const tempSlider = document.getElementById('temp-slider');
+		const salSlider = document.getElementById('sal-slider');
+
+		const phSlider = document.getElementById('ph-slider');
+		const alkSlider = document.getElementById('alk-slider');
+
+		const tanSlider = document.getElementById('tan-slider');
+		const uianSlider = document.getElementById('uian-slider');
+		const critPh = document.getElementById('crit-ph');
+
+		const co2Slider = document.getElementById('co2-slider');
+
+		const greenZoneCheckbox = document.getElementById('green-zone');
+		const omegaArZoneCheckbox = document.getElementById('omega-ar-slider');
+		// const omegaArZoneSpan = document.getElementById('omega-ar-zone-span');
+
+		const nahco3Checkbox = document.getElementById('nahco3');
+		const na2co3Checkbox = document.getElementById('na2co3');
+		const caoh2Checkbox = document.getElementById('caoh2');
+		const aerationCheckbox = document.getElementById('aeration');
+
+		if (tempSlider && salSlider) {
+			if (value !== 0) {
+				tempSlider.disabled = true;
+				salSlider.disabled = true;
+			} else {
+				tempSlider.disabled = false;
+				salSlider.disabled = false;
+			}
+		}
+
+		if (phSlider && alkSlider) {
+			if (value !== 1) {
+				phSlider.disabled = true;
+				alkSlider.disabled = true;
+			} else {
+				phSlider.disabled = false;
+				alkSlider.disabled = false;
+			}
+		}
+
+		if (tanSlider && uianSlider) {
+			if (value !== 2) {
+				tanSlider.disabled = true;
+				uianSlider.disabled = true;
+				critPh.style.opacity = 0.3;
+			} else {
+				tanSlider.disabled = false;
+				uianSlider.disabled = false;
+				critPh.style.opacity = 1.0;
+			}
+		}
+
+		if (co2Slider) {
+			if (value !== 3) {
+				co2Slider.disabled = true;
+			} else {
+				co2Slider.disabled = false;
+			}
+		}
+
+		if (omegaArZoneCheckbox) {
+			if (value !== 4) {
+				omegaArZoneCheckbox.disabled = true;
+			} else {
+				omegaArZoneCheckbox.disabled = false;
+			}
+		}
+
+		// if (greenZoneCheckbox && omegaArZoneCheckbox) {
+		if (greenZoneCheckbox) {
+			if (value < 5) {
+				greenZoneCheckbox.checked = false;
+				// omegaArZoneCheckbox.checked = false;
+			}
+		}
+
+		// [NB] Also see reactive block in WqMapHarness.svelte
+		if (value >= 4) {
+			// Re-set default pH topo
+			tempSlider.value = 15;
+			salSlider.value = 34.5;
+
+			// Re-set default danger zone sliders
+			tanSlider.value = 0.15;
+			uianSlider.value = 12.5;
+			co2Slider.value = 15.0;
+		}
+
+		// [NB] (Re-)display init WP at default position
+		if (value === 6) {
+			// Re-set default pH topo
+			phSlider.value = 6.75;
+			alkSlider.value = 2.2;
+		}
+
+		if (value < 6 && nahco3Checkbox && na2co3Checkbox && caoh2Checkbox && aerationCheckbox) {
+			nahco3Checkbox.checked = false;
+			na2co3Checkbox.checked = false;
+			caoh2Checkbox.checked = false;
+			aerationCheckbox.checked = false;
+		}
+	}
+
+
 </script>
 
 <!-- 
