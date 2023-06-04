@@ -39,6 +39,54 @@
 	</section>
 </div>
 
+<footer>
+	<p>
+		&copy; {new Date().getFullYear()}
+		<a
+			class="btn btn-primary"
+			href="mailto: aquacalc@protonmail.ch?subject=WQ-Viz"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			<span style="font-family: sans-serif;">—Nick/ Staresinic</span></a
+		>
+	</p>
+
+	<p style="font-family: sans-serif; font-size: 1rem;">
+		Powered by
+		<a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer">SvelteKit</a>,
+		<a href="https://d3js.org/" target="_blank" rel="noopener noreferrer">D3</a>, &amp;
+		<a
+			href="https://svelte.dev/repl/d806d5f6e300426ab4af317d9e1d0cb3?version=3.42.4"
+			target="_blank"
+			rel="noopener noreferrer">Scrolly</a
+		>
+		(<a
+			href="https://www.connorrothschild.com/post/svelte-scrollytelling"
+			target="_blank"
+			rel="noopener noreferrer">Scrolly tutorial</a
+		>)
+	</p>
+
+	<!-- <p style="font-family: sans-serif; font-size: 1rem;">
+		<a
+			href="https://www.flaticon.com/free-icons/water"
+			target="_blank"
+			rel="noopener noreferrer"
+			title="water icons">favicon created by Freepik - Flaticon</a
+		>
+	</p> -->
+
+	<p style="font-family: sans-serif; font-size: 1rem;">
+		<a
+			href="https://www.flaticon.com/free-icons/location"
+			target="_blank"
+			rel="noopener noreferrer"
+			title="water icons">favicon created by Moon.de - Flaticon</a
+		>
+	</p>
+</footer>
+
 <style>
 	.hero {
 		height: 20vh;
@@ -87,5 +135,20 @@
 		color: #555;
 		/* color: var(--text-blockquote); */
 		padding-bottom: 0.35rem;
+	}
+
+	footer {
+		color: var(--footer-color);
+		font-size: 0.8em;
+		margin: 0 auto;
+		max-width: 1400px;
+		padding: 3em 2em;
+		text-align: center;
+		width: 100%;
+		background-color: var(--bkg-hero);
+	}
+
+	footer p {
+		font-size: 1.3rem;
 	}
 </style>
