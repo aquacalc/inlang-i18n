@@ -6,7 +6,12 @@
 
 	import Scrolly from '$lib/scrolly/Scrolly.svelte';
 
+	import WqMapHarness from '$lib/wq-map/WqMapHarness.svelte';
+
 	import '$lib/styles/wq-step-styles.css';
+
+	let value = 0;
+	
 </script>
 
 <!-- 
@@ -41,6 +46,12 @@
 			</p>
 		</blockquote>
 	</section>
+</div>
+
+<div class="section-container">
+	<div class="sticky">
+		<WqMapHarness step={value} />
+	</div>
 </div>
 
 <section
