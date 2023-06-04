@@ -19,6 +19,8 @@
 	import '$lib/styles/wq-step-styles.css';
 
 	let value = 0;
+
+	const stepArray = [0, 1, 2, 3, 4, 5, 6];
 </script>
 
 <!-- 
