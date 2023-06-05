@@ -9,6 +9,9 @@
 	import Moon from '$lib/icons/moon.svelte';
 	import Sun from '$lib/icons/sun.svelte';
 
+	// import Icon from 'svelte-awesome';
+	// import globe from 'svelte-awesome/icons/globe';
+
 	export let data;
 
 	// inject({ mode: dev ? 'development' : 'production' });
@@ -65,6 +68,7 @@
 		</li>
 		<li>
 			<div style="text-align: right; margin-right: 20px;">
+				<!-- <Icon data={globe} id='lang-icon' scale="1.25" style="fill: #ccc; padding-top: 5px;" /> -->
 				<select
 					name="langs"
 					id="langs"
@@ -77,7 +81,7 @@
 					<option value="br">Brasileiro</option>
 					<option value="fr">Français</option>
 					<option value="de">Deutsch</option>
-					<option value="ch">Chinese</option>
+					<option value="ch">中文</option>
 					<!-- <option value="ar">اللغة العربية</option> -->
 					<!-- <option value="il">עִברִית</option> -->
 					<option value="gr">Ελληνικά</option>
@@ -147,6 +151,15 @@
 	select:focus {
 		outline: none;
 	}
+
+	/* #lang-icon {
+		cursor: pointer;
+		color: #ccc;
+	}
+
+	#lang-icon:hover {
+		color: #eee;
+	} */
 
 	#recycle-drop-menu {
 		width: 16px;
