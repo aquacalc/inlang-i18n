@@ -77,6 +77,7 @@
 					<option value="br">Brasileiro</option>
 					<option value="fr">Français</option>
 					<option value="de">Deutsch</option>
+					<option value="ch">Chinese</option>
 					<!-- <option value="ar">اللغة العربية</option> -->
 					<!-- <option value="il">עִברִית</option> -->
 					<option value="gr">Ελληνικά</option>
