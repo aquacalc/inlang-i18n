@@ -73,13 +73,13 @@
 					style="text-align: {language === 'ar' || language === 'il' ? 'right' : 'left'};"
 				>
 					<option value="en">English</option>
+					<option value="es">Español</option>
+					<option value="br">Brasileiro</option>
+					<option value="fr">Français</option>
 					<option value="de">Deutsch</option>
 					<!-- <option value="ar">اللغة العربية</option> -->
-					<option value="fr">Français</option>
-					<option value="es">Español</option>
 					<!-- <option value="il">עִברִית</option> -->
 					<option value="gr">Ελληνικά</option>
-					<option value="br">Brasileiro</option>
 					<option value="hi">हिंदी</option>
 				</select>
 			</div>
