@@ -165,6 +165,11 @@
 				{@html i('block')}
 			</p>
 		</blockquote>
+
+		<p class="viz-para">
+			{@html i('below')}
+		</p>
+		<hr style="width: 60%; margin-bottom: 0; opacity: 1;" />
 	</section>
 </div>
 
@@ -238,7 +243,7 @@
 
 	<hr style="width: 60%; margin-bottom: 35px; opacity: 1;" />
 
-	<h4 style='color: var(--about-text-highlight); margin-bottom: 0;'>{@html i('end-skills-gap')}</h4>
+	<h4 style="color: var(--about-text-highlight); margin-bottom: 0;">{@html i('end-skills-gap')}</h4>
 
 	<p class="viz-para">{@html i('end-p3')}</p>
 
