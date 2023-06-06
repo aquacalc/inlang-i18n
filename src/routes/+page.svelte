@@ -151,7 +151,12 @@
 		? 'right'
 		: 'left'};"
 >
-	<section style="font-size: 1.5rem; margin: 0rem 6.15rem; line-height: 2.25rem;">
+	<section
+		style="font-size: 1.5rem; margin: 0rem 6.15rem; line-height: 2.25rem; text-align: {language ===
+			'ar' || language === 'il'
+			? 'right'
+			: 'left'};"
+	>
 		<p class="viz-para" style="margin-top: 0;">{@html i('p1')}</p>
 		<p class="viz-para" style="margin-top: 0;">{@html i('p2')}</p>
 		<p class="viz-para" style="margin-top: 0;">{@html i('p3')}</p>
@@ -200,7 +205,9 @@
 
 <section
 	id="top-section"
-	style="text-align: left; font-size: 1.5rem; margin: 2rem 10rem 0 10rem; line-height: 2.5rem;"
+	style="text-align: {language === 'ar' || language === 'il'
+		? 'right'
+		: 'left'}; font-size: 1.5rem; margin: 2rem 10rem 0 10rem; line-height: 2.5rem;"
 >
 	<hr style="width: 60%; margin-bottom: 35px; opacity: 1;" />
 
@@ -230,6 +237,8 @@
 	</p>
 
 	<hr style="width: 60%; margin-bottom: 35px; opacity: 1;" />
+
+	<h4 style='color: var(--about-text-highlight); margin-bottom: 0;'>{@html i('end-skills-gap')}</h4>
 
 	<p class="viz-para">{@html i('end-p3')}</p>
 
