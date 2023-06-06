@@ -42,8 +42,6 @@
 	// see: https://www.youtube.com/watch?v=Y6IbPfMU1xM
 	import { i, languages, language, switchLanguage } from '@inlang/sdk-js';
 
-	// console.log(`languages: `, languages);
-
 	console.log(`exported data: `, data);
 	console.log(`language = ${language}`);
 
