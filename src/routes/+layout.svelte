@@ -3,7 +3,7 @@
 
 	// see: https://vercel.com/docs/concepts/analytics/audiences/quickstart
 	import { dev } from '$app/environment';
-	// import { inject } from '@vercel/analytics';
+	import { inject } from '@vercel/analytics';
 
 	import { fade } from 'svelte/transition';
 	import Moon from '$lib/icons/moon.svelte';
@@ -15,7 +15,7 @@
 	export let data;
 	console.log(`data prop: `, data);
 
-	// inject({ mode: dev ? 'development' : 'production' });
+	inject({ mode: dev ? 'development' : 'production' });
 
 	let currentTheme = '';
 
