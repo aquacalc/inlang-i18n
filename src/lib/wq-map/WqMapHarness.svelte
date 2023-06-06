@@ -1,26 +1,11 @@
 <script>
 	import { onMount } from 'svelte';
 
-	// // see: https://github.com/rsdavis/svelte-drawer
-	// import Drawer from 'svelte-drawer-component';
-
-	// // see: https://svelte.dev/repl/cf05bd4a4ca14fb8ace8b6cdebbb58da?version=3.17.0
-	// import Tabs from './wq-chart/tab-component/Tabs.svelte';
-	// import AdjustmentsTab from './wq-output/AdjustmentsTab.svelte';
-	// import WaypointsTab from './wq-output/WaypointsTab.svelte';
-	// import InfoTab from './wq-output/InfoTab.svelte';
-
 	// see: https://github.com/RobBrazier/svelte-awesome
 	// [NB] Error: https://github.com/ArdenIvanov/svelte-intellisense/issues/32
 	// import Icon from 'svelte-awesome';
 	// import chevronCircleRight from 'svelte-awesome/icons/chevronCircleRight';
 	// import chevronCircleLeft from 'svelte-awesome/icons/chevronCircleLeft';
-
-	// // see: https://www.npmjs.com/package/svelte-collapsible
-	// import { CollapsibleCard } from 'svelte-collapsible';
-
-	// // Sidedrawer input controls
-	// import Collapsibles from './wqmap-controls/sidedrawer-input/Collapsibles.svelte';
 
 	// WQ Store
 	import {
@@ -150,14 +135,6 @@
 		$co2CritObj.isValid = true;
 	});
 
-	// Sidedrawer
-	let isSidedrawerOpen = false;
-
-	// √ TODO -- convert temp & sal to I.C. units
-	// √ TODO -- wire local storage
-	// √ TODO -- more elegant 'message' when T &/| S out-of-bounds
-	// ~ TODO -- fix (hide?) colliding pH text in upper-right corner
-
 	$: isWqMapStateValid =
 		$tempObj.isValid &&
 		$salObj.isValid &&
@@ -220,41 +197,6 @@
 
 	// $: console.log(`adjBicarCarbCoords: `, adjBicarCarbCoords)
 
-	//   x: "1.0",
-	// y: "1.5",
-	// dic: "1.0",
-	// alk: "1.5",
-	// // f(temp & sal)
-	// phNbs: "7.5", // NBS
-	// phFree: "6.0", // pH (FREE)
-	// phTot: "6.0", // pH (TOTAL)
-	// phSws: "6.0", // pH (SEAWATER)
-	// uian: "0.0",
-	// co2: "0.0",
-
-	// $initWp.phFree = phNbsToPhFree(
-	//   +$initWp.phNbs,
-	//   +$salObj.icInput,
-	//   +$tempObj.icInput,
-	//   0
-	// );
-
-	// $phObj.phTot = phFreeToPhTot(
-	//   +$initWp.ph,
-	//   +$salObj.icInput,
-	//   +$tempObj.icInput,
-	//   0
-	// );
-
-	// wpCoords(icTemp, icSal, phNbs, icAlk)
-	// $: dicInit = wpCoords(+$tempObj.icInput, +$salObj.icInput, +$initWp.ph.phNbs, +$initWp.alk.alk);
-
-	// $: console.log(`DIC (Harness): `, dicInit);
-
-	const toggleSidedrawer = () => {
-		isSidedrawerOpen = !isSidedrawerOpen;
-	};
-
 	$: wqMapData = {
 		phTopo,
 		gzCoords,
@@ -273,7 +215,6 @@
 
 <div class="wq-map-harness">
 	<div class="harness-content-grid">
-		<!-- <div id="waypoint-table">WP table</div> -->
 		<div id="wq-map">
 			<!-- [ADD] step prop to mark scroll position -->
 			<WqMap

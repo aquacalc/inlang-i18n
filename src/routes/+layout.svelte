@@ -13,6 +13,7 @@
 	// import globe from 'svelte-awesome/icons/globe';
 
 	export let data;
+	console.log(`data prop: `, data);
 
 	// inject({ mode: dev ? 'development' : 'production' });
 
@@ -42,8 +43,8 @@
 	// see: https://www.youtube.com/watch?v=Y6IbPfMU1xM
 	import { i, languages, language, switchLanguage } from '@inlang/sdk-js';
 
-	console.log(`exported data: `, data);
-	console.log(`language = ${language}`);
+	// console.log(`exported data: `, data);
+	// console.log(`language = ${language}`);
 
 	// --------------- //
 
