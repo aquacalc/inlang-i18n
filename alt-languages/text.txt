@@ -1,16 +1,16 @@
 You are a skilled technical translator. 
-Your task is to translate the JSON within the triple-quotes from English into Arabic.
+Your task is to translate the JSON within the triple-quotes from English into Turkish (Türkçe).
 
 Here are four exceptions to what you will translate:
-1. Do not translate the keys into Arabic. For example, do not translate "one-p1" or "three-title-a".
-2. Do not translate the HTML tags or their attributes. For example, do not translate "<strong style='font-family: sans-serif;'>" into Arabic
-3. Do not translate any acronyms into Arabic: For example, do not translate [Alk], pH, TA-N, UIA-N, WQ, RAS, DIC, CO<sub>2</sub>.
-4. Do not translate the terms "Water Quality Map" or "Deffeyes Diagram" into Arabic.
+1. Do not translate the keys into Turkish. For example, do not translate "one-p1" or "three-title-a".
+2. Do not translate the HTML tags or their attributes. For example, do not translate "<strong style='font-family: sans-serif;'>" into Turkish
+3. Do not translate any acronyms into Turkish: For example, do not translate [Alk], pH, TA-N, UIA-N, WQ, RAS, DIC, CO<sub>2</sub>.
+4. Do not translate the terms "Water Quality Map" or "Deffeyes Diagram" into Turkish.
 
-Please put your translated response in a code block that can be copied with one click.
+Please put your Turkish translation in a code block that can be copied with one click.
 
 """
-"language": "Arabic",
+"language": "Türkçe",
 	"flag": "🇨🇦",
 	"hero": "Visualizing Aquaculture Water Quality",
 	"welcome": "<h1 style='color: red;'>Welcome <span style='color: blue;'>to inlang</span></h1>",
@@ -39,6 +39,16 @@ Please put your translated response in a code block that can be copied with one 
 	"three-highest-safe-ph": "Highest safe pH",
 """
 
+You are a skilled technical translator. 
+Your task is to translate the JSON within the triple-quotes from English into Turkish (Türkçe).
+
+Here are four exceptions to what you will translate:
+1. Do not translate the keys into Turkish. For example, do not translate "one-p1" or "three-title-a".
+2. Do not translate the HTML tags or their attributes. For example, do not translate "<strong style='font-family: sans-serif;'>" into Turkish
+3. Do not translate any acronyms into Turkish: For example, do not translate [Alk], pH, TA-N, UIA-N, WQ, RAS, DIC, CO<sub>2</sub>.
+4. Do not translate the terms "Water Quality Map" or "Deffeyes Diagram" into Turkish.
+
+Please put your Turkish translation in a code block that can be copied with one click.
 
 """
 	"four-title-a": "Plot the ",
@@ -55,6 +65,16 @@ Please put your translated response in a code block that can be copied with one 
 	"five-p3": "<span style='font-family: sans-serif;'>&Omega;<sub>ar</sub> = 1 at saturation. (Seawater <span style='font-family: sans-serif;'>&Omega;<sub>ar</sub> ≈ 3, so it's super-saturated.</span>)</span>",
 """
 
+You are a skilled technical translator. 
+Your task is to translate the JSON within the triple-quotes from English into Turkish (Türkçe).
+
+Here are four exceptions to what you will translate:
+1. Do not translate the keys into Turkish. For example, do not translate "one-p1" or "three-title-a".
+2. Do not translate the HTML tags or their attributes. For example, do not translate "<strong style='font-family: sans-serif;'>" into Turkish
+3. Do not translate any acronyms into Turkish: For example, do not translate [Alk], pH, TA-N, UIA-N, WQ, RAS, DIC, CO<sub>2</sub>.
+4. Do not translate the terms "Water Quality Map" or "Deffeyes Diagram" into Turkish.
+
+Please put your Turkish translation in a code block that can be copied with one click.
 
 """	
   "six-title-a": "The ",
@@ -76,6 +96,16 @@ Please put your translated response in a code block that can be copied with one 
 	"six-p3-g": " boundary.",
 """
 
+You are a skilled technical translator. 
+Your task is to translate the JSON within the triple-quotes from English into Turkish (Türkçe).
+
+Here are four exceptions to what you will translate:
+1. Do not translate the keys into Turkish. For example, do not translate "one-p1" or "three-title-a".
+2. Do not translate the HTML tags or their attributes. For example, do not translate "<strong style='font-family: sans-serif;'>" into Turkish
+3. Do not translate any acronyms into Turkish: For example, do not translate [Alk], pH, TA-N, UIA-N, WQ, RAS, DIC, CO<sub>2</sub>.
+4. Do not translate the terms "Water Quality Map" or "Deffeyes Diagram" into Turkish.
+
+Please put your Turkish translation in a code block that can be copied with one click.
 """
 	"seven-title": "What can <strong>you</strong> do with the WQ Map?",
 	"seven-lower": "lower",
@@ -90,6 +120,14 @@ Please put your translated response in a code block that can be copied with one 
 	"seven-p3": "That's useful qualitative info, but the map also calculates the reagent amounts to add for precise control of your culture water <small>(screenshot below)</small>.",
 """
 
+You are a skilled technical translator. 
+Your task is to translate the JSON within the triple-quotes from English into Turkish (Türkçe).
+
+Here are four exceptions to what you will translate:
+1. Do not translate the keys into Turkish. For example, do not translate "one-p1" or "three-title-a".
+2. Do not translate the HTML tags or their attributes. For example, do not translate "<strong style='font-family: sans-serif;'>" into Turkish
+3. Do not translate any acronyms into Turkish: For example, do not translate [Alk], pH, TA-N, UIA-N, WQ, RAS, DIC, CO<sub>2</sub>.
+4. Do not translate the terms "Water Quality Map" or "Deffeyes Diagram" into Turkish.
 """
 "end-p1-a": "The screenshot shows an example of adjustment directions calculated by the Water Quality Map to reach the target waypoint ",
 	"end-p1-b": " and maintain the major ionic ratios.",
