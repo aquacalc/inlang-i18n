@@ -85,6 +85,7 @@
 					<!-- <option value="ar">اللغة العربية</option> -->
 					<!-- <option value="il">עִברִית</option> -->
 					<option value="hi">हिंदी</option>
+					<option value="ml">Melayu</option>
 				</select>
 			</div>
 		</li>

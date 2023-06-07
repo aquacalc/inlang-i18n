@@ -1,3 +1,43 @@
+You are a skilled technical translator. 
+Your task is to translate the JSON within the triple-quotes from English into the Malay language.
+
+Here are four exceptions to what you will translate:
+1. Do not translate the keys into Malay. For example, do not translate "one-p1" or "three-title-a".
+2. Do not translate the HTML tags or their attributes. For example, do not translate "<strong style='font-family: sans-serif;'>" into Malay
+3. Do not translate any acronyms into Malay: For example, do not translate [Alk], pH, TA-N, UIA-N, WQ, RAS, DIC, CO<sub>2</sub>.
+4. Do not translate the terms "Water Quality Map" or "Deffeyes Diagram" into Malay.
+
+Please put your translated response in a code block that can be copied with one click.
+
+"""
+"language": "English",
+	"flag": "🇨🇦",
+	"hero": "Visualizing Aquaculture Water Quality",
+	"welcome": "<h1 style='color: red;'>Welcome <span style='color: blue;'>to inlang</span></h1>",
+	"p1": "Maintaining healthy culture water means managing water chemistry.",
+	"p2": "But water chemistry is a tech topic filled with equations and confusing concepts.",
+	"p3": "That's a pain-point for many aquaculturists, especially in recirc systems (<strong style='font-weight: 400; color: var(--about-text-highlight)'>RAS</strong>).",
+	"block": "A visual approach makes managing water quality (<strong style='font-weight: 400; color: var(--about-text-highlight)'>WQ</strong>) so simple that anyone who can use Google Maps can manage their culture environment with the <span style='color: var(--about-text-highlight);''>Water Quality Map</span>.",
+	"below": "Below, a 6-step interactive intro to visual WQ control with the <span style='color: var(--about-text-highlight);'>Water Quality Map</span>.",
+	"one-title": "A topographic map of pH",
+	"one-p1": "Aquaculture water quality can be visualized with a modified Deffeyes Diagram.",
+	"one-p2": "Alkalinity ([Alk]) is on the y-axes. The x-axis is the sum of bicarbonate, carbonate, & CO<sub>2</sub> (DIC).",
+	"one-p3": "Lines of equal pH are projected onto the map.",
+	"one-p4": "Changing temperature & salinity changes the pH topography.",
+	"two-title": "Plot your current water quality",
+	"two-p1a": "pH & [Alk] define your location on the map",
+	"two-p1b": ".",
+	"two-p2": "That determines un-ionized ammonia-nitrogen (<strong style='font-family: sans-serif;'>UIA-N</strong>), dissolved CO<sub>2</sub>, carbonate saturation (<strong>Ω</strong>), and other key properties.",
+	"two-p3": "Changing pH & alkalinity changes your water quality.",
+	"three-title-a": "Plot the ",
+	"three-title-b": "UIA-N Danger Zone",
+	"three-title-c": "",
+	"three-p1": "The toxic ammonia boundary is the pH above which UIA-N exceeds the tolerance of your species.",
+	"three-p2": "Higher Total Ammonia-Nitrogen (<strong style='font-family: sans-serif;'>TA-N</strong>) and lower tolerance expand the toxic region.",
+	"three-p3": "Change TA-N & UIA-N tolerance to modify the danger zone.",
+	"three-tolerance": "tolerance",
+	"three-highest-safe-ph": "Highest safe pH",
+"""
 
 تعد خريطة جودة المياه أيضًا أداة تدريب فعالة.
 تعد خريطة جودة المياه أيضًا أداة تدريب فعالة.
