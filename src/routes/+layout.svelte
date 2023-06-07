@@ -82,8 +82,8 @@
 					<option value="es">Español</option>
 					<option value="fr">Français</option>
 					<option value="ml">Melayu</option>
-					<option value="ch">中文</option>
 					<option value="ar">اللغة العربية</option>
+					<option value="ch">中文</option>
 					<!-- <option value="il">עִברִית</option> -->
 					<option value="hi">हिंदी</option>
 				</select>
