@@ -1,16 +1,16 @@
 You are a skilled technical translator. 
-Your task is to translate the JSON within the triple-quotes from English into the Malay language.
+Your task is to translate the JSON within the triple-quotes from English into Arabic.
 
 Here are four exceptions to what you will translate:
-1. Do not translate the keys into Malay. For example, do not translate "one-p1" or "three-title-a".
-2. Do not translate the HTML tags or their attributes. For example, do not translate "<strong style='font-family: sans-serif;'>" into Malay
-3. Do not translate any acronyms into Malay: For example, do not translate [Alk], pH, TA-N, UIA-N, WQ, RAS, DIC, CO<sub>2</sub>.
-4. Do not translate the terms "Water Quality Map" or "Deffeyes Diagram" into Malay.
+1. Do not translate the keys into Arabic. For example, do not translate "one-p1" or "three-title-a".
+2. Do not translate the HTML tags or their attributes. For example, do not translate "<strong style='font-family: sans-serif;'>" into Arabic
+3. Do not translate any acronyms into Arabic: For example, do not translate [Alk], pH, TA-N, UIA-N, WQ, RAS, DIC, CO<sub>2</sub>.
+4. Do not translate the terms "Water Quality Map" or "Deffeyes Diagram" into Arabic.
 
 Please put your translated response in a code block that can be copied with one click.
 
 """
-"language": "English",
+"language": "Arabic",
 	"flag": "🇨🇦",
 	"hero": "Visualizing Aquaculture Water Quality",
 	"welcome": "<h1 style='color: red;'>Welcome <span style='color: blue;'>to inlang</span></h1>",
@@ -37,6 +37,69 @@ Please put your translated response in a code block that can be copied with one 
 	"three-p3": "Change TA-N & UIA-N tolerance to modify the danger zone.",
 	"three-tolerance": "tolerance",
 	"three-highest-safe-ph": "Highest safe pH",
+"""
+
+
+"""
+	"four-title-a": "Plot the ",
+	"four-title-b": "CO<sub>2</sub> Danger Zone",
+	"four-title-c": "",
+	"four-p1": "The boundary of the CO<sub>2</sub> danger zone is the highest CO<sub>2</sub> that your species tolerates.",
+	"four-p2": "It's often ~10 - 15 mg/L, but lower for larvae and up to 60 mg/L for a hardy species like Tilapia.",
+	"four-p3": "Change CO<sub>2</sub> tolerance to change the danger zone.",
+	"five-title-a": "The ",
+	"five-title-b": "Aragonite Saturation Zone",
+	"five-title-c": "",
+	"five-p1": "Carbonate saturation is important in shell, bone, & carapace formation and in regulating pH & [Alk].",
+	"five-p2": "The map displays both aragonite (Ω<span style='font-size: 12px'>ar</span>) & calcite (Ω<span style='font-size: 12px'>ca</span>) saturation zones for any calcium level.",
+	"five-p3": "<span style='font-family: sans-serif;'>&Omega;<sub>ar</sub> = 1 at saturation. (Seawater <span style='font-family: sans-serif;'>&Omega;<sub>ar</sub> ≈ 3, so it's super-saturated.</span>)</span>",
+"""
+
+
+"""	
+  "six-title-a": "The ",
+	"six-title-b": "Green Zone",
+	"six-title-c": "",
+	"six-p1-a": "It's practical to display your species' ",
+	"six-p1-b": "Green Zone",
+	"six-p1-c": ", the region where its WQ requirements are met.",
+	"six-show": "Show",
+	"six-hide": "Hide",
+	"six-gz": "Green Zone",
+	"six-p2": "Here, the boundaries are the UIA-N & CO<sub>2</sub> danger zones, plus adjustable <em>min</em> and <em>max</em> alkalinities.",
+	"six-p3-a": "In other cases, ",
+	"six-p3-b": "aragonite ",
+	"six-p3-c": "(or ",
+	"six-p3-d": "calcite",
+	"six-p3-e": ") saturation may be used as a",
+	"six-p3-f": "Green Zone ",
+	"six-p3-g": " boundary.",
+"""
+
+"""
+	"seven-title": "What can <strong>you</strong> do with the WQ Map?",
+	"seven-lower": "lower",
+	"seven-p1-a": "You can plot a course that keeps your species in its ",
+	"seven-p1-b": "Green Zone",
+	"seven-p1-c": " for good growth and survival.",
+	"seven-p2-a": "The pin ",
+	"seven-p2-b": " is outside of the ",
+	"seven-p2-c": "Green Zone",
+	"seven-p2-d": ". Select one or two reagents to see which safe areas they reach.",
+	"seven-ceiling": "(here, aeration is not limited by the 'pH ceiling')",
+	"seven-p3": "That's useful qualitative info, but the map also calculates the reagent amounts to add for precise control of your culture water <small>(screenshot below)</small>.",
+"""
+
+"""
+"end-p1-a": "The screenshot shows an example of adjustment directions calculated by the Water Quality Map to reach the target waypoint ",
+	"end-p1-b": " and maintain the major ionic ratios.",
+	"end-p2": "In this case, among 13 options, the <mark>sodium bicarbonate + sodium carbonate</mark> combination is highlighted. Potassium chloride (KCl) adjusts the Na:K ratio.",
+	"end-skills-gap": "Closing the 'RAS skills gap'",
+	"end-p3": "The Water Quality Map is also an effective training tool.",
+	"end-p4": "Anyone wandering within the water-quality wilderness without a map can use it to manage culture water without diving into the deep end of chemistry and math.",
+	"end-p5-a": "You'll find further info and examples in the ",
+	"end-p5-b": "WQ | FAQ Blog",
+	"end-p5-c": "."
 """
 
 تعد خريطة جودة المياه أيضًا أداة تدريب فعالة.
