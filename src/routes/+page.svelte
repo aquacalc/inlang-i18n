@@ -144,7 +144,7 @@
 <!-- <p>
 	{@html i('welcome')}
 </p> -->
-
+<span style='unicode-bidi: plaintext;'></span>
 <div
 	style="font-size: 1.35rem; width: 90%; margin: 0 auto; text-align: {language === 'ar' ||
 	language === 'il'
