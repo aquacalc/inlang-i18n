@@ -87,6 +87,12 @@ nav {
 	color: var(--color);
 	margin-bottom: 1.5rem;
 	padding-bottom: 0;
+	unicode-bidi: plaintext; /* NEED for Hebrew & Arabic punctuation */
+}
+
+/* NEED for Hebrew & Arabic punctuation IN STEP PARAGRAPHS */
+p, small {
+	unicode-bidi: plaintext;
 }
 
 .hero {
