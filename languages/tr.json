@@ -69,6 +69,8 @@
 	"seven-p2-d": " Hangi güvenli alanlara ulaştıklarını görmek için bir veya iki reaktif seçin.",
 	"seven-ceiling": "(burada, 'pH tavanı' tarafından sınırlanmayan havalandırma)",
 	"seven-p3": "Bu yararlı niteliksel bir bilgidir, ancak harita aynı zamanda kültür ortamınızın hassas kontrolü için eklenecek reaktiflerin miktarını da hesaplar. <small>(aşağıdaki ekran görüntüsü)</small>.",
+	
+	"end-navigate": "WQ ortamınızda gezinin",
 	"end-p1-a": "Ekran görüntüsü, hedef yol noktasına ulaşmak için Water Quality Map tarafından hesaplanan ayarlama yönlerinin bir örneğini gösterir",
 	"end-p1-b": "ve ana iyon oranlarını korur.",
 	"end-p2": "Bu durumda, 13 seçenek arasından <mark>sodyum bikarbonat + sodyum karbonat</mark> kombinasyonu vurgulanmaktadır. Potasyum klorür (KCl), Na:K oranını ayarlar.",

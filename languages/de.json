@@ -66,6 +66,8 @@
 	"seven-p2-d": ". Wählen Sie 1 oder 2 Reagenzien aus, um zu sehen, in welche sicheren Bereiche sie gelangen.",
 	"seven-ceiling": "(hier begrenzt die Belüftung den pH-Wert nicht)",
 	"seven-p3": "Das ist nützliche qualitative Information, aber die Karte berechnet auch die Menge der Reagenzien, die für eine präzise Kontrolle des Kulturwassers hinzugefügt werden sollen <small>(screenshot unten)</small>.",
+	
+	"end-navigate": "Navigieren Sie durch Ihre WQ-Umgebung",
 	"end-p1-a": "Der Screenshot zeigt ein Beispiel für Anpassungsrichtungen, die von der Wasserqualitätskarte berechnet werden, um den Zielwegpunkt ",
 	"end-p1-b": " zu erreichen und die wichtigsten Ionenverhältnisse aufrechtzuerhalten.",
 	"end-caption": "Die Wasserqualitätskarte - Beispiel",

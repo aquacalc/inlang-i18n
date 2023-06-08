@@ -66,6 +66,8 @@
 	"seven-p2-d": ". Selecciona uno o dos reactivos para ver en qué áreas seguras llegan.",
 	"seven-ceiling": "(aquí, la aireación no está limitada por el 'techo de pH')",
 	"seven-p3": "Es información cualitativa útil, pero el mapa también calcula los reactivos que se agregarán para un control WQ preciso <small>(imagen de abajo)</small>.",
+	
+	"end-navigate": "Navegue a través de su entorno WQ",
 	"end-p1-a": "La captura de pantalla muestra un ejemplo de direcciones de ajuste calculadas por el Water Quality Map del Agua para alcanzar el punto de destino ",
 	"end-p1-b": " y mantener las proporciones iónicas principales.",
 	"end-caption": "El Water Quality Map - ejemplo",

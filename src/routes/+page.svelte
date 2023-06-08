@@ -216,6 +216,8 @@
 >
 	<hr style="width: 60%; margin-bottom: 35px; opacity: 1;" />
 
+	<h4 style="color: var(--about-text-highlight); margin-bottom: 0;">{@html i('end-navigate')}</h4>
+
 	<p class="viz-para">
 		{@html i('end-p1-a')}
 		<svg

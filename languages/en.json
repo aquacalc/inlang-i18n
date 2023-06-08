@@ -66,6 +66,7 @@
 	"seven-p2-d": ". Select one or two reagents to see which safe areas they reach.",
 	"seven-ceiling": "(here, aeration is not limited by the 'pH ceiling')",
 	"seven-p3": "That's useful qualitative info, but the map also calculates the reagent amounts to add for precise control of your culture water <small>(screenshot below)</small>.",
+	"end-navigate": "Navigate through your WQ environment",
 	"end-p1-a": "The screenshot shows an example of adjustment directions calculated by the Water Quality Map to reach the target waypoint ",
 	"end-p1-b": " and maintain the major ionic ratios.",
 	"end-p2": "In this case, among 13 options, the <mark>sodium bicarbonate + sodium carbonate</mark> combination is highlighted. Potassium chloride (KCl) adjusts the Na:K ratio.",
