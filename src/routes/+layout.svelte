@@ -58,50 +58,84 @@
 </script>
 
 <nav>
-	<ul id="nav-ul" style="height: 40px;">
-		<li>
-			<a href="https://www.wq-faq.com" target="_blank" rel="noopener noreferrer"
-				><img id="recycle-drop-menu" src="/recycle-drop.png" alt="WQ | FAQ icon" /> WQ
-				<span style="color: orange;">|</span> FAQ Blog</a
-			>
-		</li>
-		<li>
-			<div style="text-align: right; margin-right: 20px;">
-				<!-- <Icon data={globe} id='lang-icon' scale="1.25" style="fill: #ccc; padding-top: 5px;" /> -->
-				<select
-					name="langs"
-					id="langs"
-					on:change={handleLanguageSelection}
-					bind:value={selectedLang}
-					style="text-align: {language === 'ar' || language === 'il' ? 'right' : 'right'}; padding-right: 5px;"
+	<div
+		style="display: flex; justify-content: space-between; 
+	align-items: center;"
+	>
+		<a
+			class="btn btn-primary"
+			href="mailto: aquacalc@protonmail.ch?subject=WQ-Viz"
+			target="_blank"
+			rel="noopener noreferrer"
+			style="margin-left: 1rem; font-size: 2rem;"
+			title="Visual RAS Water Quality"
+		>
+			<span style="font-family: sans-serif;"
+				><img id="map-marker-menu" src="/map-marker.png" alt="contact" /></span
+			></a
+		>
+
+		<ul id="nav-ul" style="height: 40px;">
+			<li>
+				<a href="https://www.wq-faq.com" target="_blank" rel="noopener noreferrer"
+					><img id="recycle-drop-menu" src="/recycle-drop.png" alt="WQ | FAQ icon" /> WQ
+					<span style="color: orange;">|</span> FAQ Blog</a
 				>
-					<option value="br">Brasileiro</option>
-					<option value="de">Deutsch</option>
-					<option value="gr">Ελληνικά</option>
-					<option value="en">English</option>
-					<option value="es">Español</option>
-					<option value="fr">Français</option>
-					<option value="ml">Melayu</option>
-					<option value="tr">Türkçe</option>
-					<option value="ar">اللغة العربية</option>
-					<option value="ch">中文</option>
-					<!-- <option value="il">עִברִית</option> -->
-					<option value="hi">हिंदी</option>
-				</select>
-			</div>
-		</li>
-		<li class="relative">
-			{#if currentTheme == 'light'}
-				<a class="moon" href={'#'} on:click={() => setTheme('dark')}>
-					<Moon />
-				</a>
-			{:else}
-				<a class="sun" href={'#'} on:click={() => setTheme('light')}>
-					<Sun />
-				</a>
-			{/if}
-		</li>
-	</ul>
+			</li>
+			<li>
+				<div style="text-align: right; margin-right: 0px;">
+					<!-- <Icon data={globe} id='lang-icon' scale="1.25" style="fill: #ccc; padding-top: 5px;" /> -->
+					<select
+						name="langs"
+						id="langs"
+						on:change={handleLanguageSelection}
+						bind:value={selectedLang}
+						style="text-align: {language === 'ar' || language === 'il'
+							? 'right'
+							: 'right'}; padding-right: 5px;"
+					>
+						<option value="br">Brasileiro</option>
+						<option value="de">Deutsch</option>
+						<option value="gr">Ελληνικά</option>
+						<option value="en">English</option>
+						<option value="es">Español</option>
+						<option value="fr">Français</option>
+						<option value="ml">Melayu</option>
+						<option value="tr">Türkçe</option>
+						<option value="ar">اللغة العربية</option>
+						<option value="ch">中文</option>
+						<!-- <option value="il">עִברִית</option> -->
+						<option value="hi">हिंदी</option>
+					</select>
+				</div>
+			</li>
+
+			<li>
+				<a
+					class="btn btn-primary"
+					href="mailto: aquacalc@protonmail.ch?subject=WQ-Viz"
+					target="_blank"
+					rel="noopener noreferrer"
+					style="font-size: 1.75rem;"
+					title="Contact..."
+				>
+					<span style="font-family: sans-serif;"> ✉️</span></a
+				>
+			</li>
+
+			<li class="relative">
+				{#if currentTheme == 'light'}
+					<a class="moon" href={'#'} on:click={() => setTheme('dark')}>
+						<Moon />
+					</a>
+				{:else}
+					<a class="sun" href={'#'} on:click={() => setTheme('light')}>
+						<Sun />
+					</a>
+				{/if}
+			</li>
+		</ul>
+	</div>
 </nav>
 
 <!-- {#key data.currentRoute} -->
@@ -117,7 +151,7 @@
 		justify-content: flex-end;
 		align-items: center;
 		padding: 0 30px;
-		gap: 4rem;
+		gap: 1.5rem;
 		list-style-type: none;
 	}
 
@@ -164,6 +198,12 @@
 
 	#recycle-drop-menu {
 		width: 16px;
+		padding-right: 2px;
+		opacity: 0.9;
+	}
+
+	#map-marker-menu {
+		width: 28px;
 		padding-right: 2px;
 		opacity: 0.9;
 	}
