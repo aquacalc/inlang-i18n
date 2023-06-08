@@ -94,13 +94,13 @@
 							? 'right'
 							: 'right'}; padding-right: 5px;"
 					>
-						<option value="br">Brasileiro</option>
 						<option value="de">Deutsch</option>
 						<option value="gr">Ελληνικά</option>
 						<option value="en">English</option>
 						<option value="es">Español</option>
 						<option value="fr">Français</option>
 						<option value="ml">Melayu</option>
+						<option value="br">Português</option>
 						<option value="tr">Türkçe</option>
 						<option value="ar">اللغة العربية</option>
 						<option value="ch">中文</option>
