@@ -64,7 +64,7 @@
 	>
 		<a
 			class="btn btn-primary"
-			href="mailto: aquacalc@protonmail.ch?subject=WQ-Viz"
+			href="https://www.wq-faq.com/about"
 			target="_blank"
 			rel="noopener noreferrer"
 			style="margin-left: 1rem; font-size: 2rem;"
