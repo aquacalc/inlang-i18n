@@ -138,12 +138,11 @@
 	</div>
 </nav>
 
-<!-- {#key data.currentRoute} -->
-<main in:fade={{ duration: 350 }}>
-	<slot />
-</main>
-
-<!-- {/key} -->
+{#key data.currentRoute}
+	<main in:fade={{ duration: 350 }}>
+		<slot />
+	</main>
+{/key}
 
 <style>
 	ul {
