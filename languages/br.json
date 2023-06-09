@@ -57,7 +57,7 @@
 	"six-p3-g": ".",
 	"seven-title": "O que você pode fazer com o WQ Map?",
 	"seven-lower": "reduzir",
-	"seven-p1-a": "Você pode traçar um curso para manter sua espécie em sua ",
+	"seven-p1-a": "Pode traçar um curso para manter sua espécie na ",
 	"seven-p1-b": "Zona Verde",
 	"seven-p1-c": " para um crescimento ótimo.",
 	"seven-p2-a": "O marcador ",
@@ -65,8 +65,8 @@
 	"seven-p2-c": "Zona Verde",
 	"seven-p2-d": ". Selecione uma ou duas variáveis para ver em quais áreas seguras elas se encontram.",
 	"seven-ceiling": "(aqui, a aeração não é limitada pelo 'teto de pH')",
-	"seven-p3": "É uma informação qualitativa útil, mas o mapa também calcula os reagentes a serem adicionados para um controle preciso da água <small>(imagem abaixo)</small>.",
-	
+	"seven-p3": "Esta é uma informação qualitativa útil, mas o mapa também recomenda reagentes para controle preciso da água <small>(imagem abaixo)</small>.",
+
 	"end-navigate": "Navegue pelo seu ambiente WQ",
 	"end-p1-a": "A captura de tela mostra um exemplo de direções de ajuste calculadas pelo Water Quality Map para alcançar o waypoint de destino ",
 	"end-p1-b": " e manter as proporções iônicas principais.",

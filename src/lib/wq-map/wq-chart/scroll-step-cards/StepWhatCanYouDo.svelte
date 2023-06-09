@@ -52,9 +52,7 @@
 
 <!-- <h4 class="index-of-count" class:active={value + 1 === step}>{step} of 7</h4> -->
 <h3 class="step-title" class:active={value + 1 === step}>
-	<!-- <em>What can <span style="color: {value + 1 === step ? 'black' : '#ccc'}">you</span> do with the Water
-		Quality Map?</em> -->
-		<em style='unicode-bidi: plaintext;'>{@html i('seven-title')}</em>
+	<em style="unicode-bidi: plaintext;">{@html i('seven-title')}</em>
 </h3>
 
 <section class:active={value + 1 === step} style="margin-top: 0.0rem; margin-bottom: 0;">
@@ -90,11 +88,12 @@
 	</p>
 
 	<!-- <hr /> -->
-
 </section>
 
 <!-- rgtsChecked.length === 2 && rgtsUnchecked.includes(0) -->
-<div style="display: flex; flex-direction: column; padding-left: 2rem; margin-bottom: 0; text-align: left;">
+<div
+	style="display: flex; flex-direction: column; padding-left: 2rem; margin-bottom: 0; text-align: left;"
+>
 	<label for="nahco3">
 		<input
 			type="checkbox"
