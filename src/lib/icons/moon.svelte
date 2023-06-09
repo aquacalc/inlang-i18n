@@ -14,6 +14,6 @@
     transition-duration: 300ms;
   }
   svg:hover {
-    color: black;
+    color: rgb(72, 118, 188);
   }
 </style>
