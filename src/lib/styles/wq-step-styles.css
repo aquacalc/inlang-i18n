@@ -221,6 +221,7 @@ section.active {
 	margin: 0;
 	font-weight: 500;
 	font-size: 1.33rem;
+	border-bottom: 1px solid #ccc;
 }
 
 .step-title.active {
