@@ -7,7 +7,6 @@
 	"p3": "זוהי נקודת כאב עבור חקלאים ימיים ימית רבים, במיוחד במערכות חקלאות ימית סגורות (<strong style='font-weight: 400; color: var(--about-text-highlight)'>RAS</strong> )",
 	"block": "גישה ויזואלית הופכת את ניהול איכות המים לפשוט כל כך שכל מי שיודע להשתמש ב-Google Maps יכול לנהל את סביבת החקלאות הימית שלו עם <span style='color: var(--about-text-highlight);'>Water Quality Map</span>.",
 	"below": "מטה, מבוא אינטראקטיבי בשישה שלבים לשליטה ויזואלית באיכות המים עם <span style='color: var(--about-text-highlight);'>Water Quality Map</span>.",
-
 	"one-title": "מפת טופוגרפית של ערך ה-pH",
 	"one-p1": "איכות מים של דיוקן ניתן להציג באמצעות דיאגרמת Deffeyes משונתת.",
 	"one-p2": "אלקליניות ([Alk]) נמצאת בציר ה-y. הציר ה-x הוא סכום הביקרבונט, הקרבונט וקרבונט דו חמצני (DIC).",

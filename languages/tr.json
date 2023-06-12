@@ -6,7 +6,6 @@
 	"p1": "Sağlıklı bir kültür suyu korumak, su kimyasını yönetmek anlamına gelir.",
 	"p2": "Ancak su kimyası, denklemler ve kafa karıştırıcı kavramlarla dolu bir teknik konudur.",
 	"p3": "Bu, özellikle devir daim sistemlerinde (<strong style='font-weight: 400; color: var(--about-text-highlight)'>RAS</strong>) birçok su ürünleri yetiştiricisi için bir sorun noktasıdır.",
-
 	"block": "Görsel bir yaklaşım, su kalitesini (<strong style='font-weight: 400; color: var(--about-text-highlight)'>WQ</strong>) yönetmeyi o kadar basit hale getirir ki, Google Maps kullanabilen herkes, <span style='color: var(--about-text-highlight);''>Water Quality Map</span> ile su ortamını koruyan su kimyasını yönetebilir.",
 	"below": "Aşağıda, <span style='color: var(--about-text-highlight);'>Water Quality Map</span> ile görsel WQ kontrolüne ilişkin 6 adımlı etkileşimli bir tanıtım bulunmaktadır.",
 	"one-title": "pH'nın topoğrafik bir haritası",
@@ -39,7 +38,6 @@
 	"five-p1": "Karbonat doygunluğu, kabuk, kemik ve karapaks oluşumunda ve pH ve [Alk] düzenlemesinde önemlidir.",
 	"five-p2": "Harita, herhangi bir kalsiyum seviyesi için aragonit (Ω<span style='font-size: 12px'>ar</span>) ve kalsit (Ω<span style='font-size: 12px'>ca</span>) doygunluk bölgelerini gösterir.",
 	"five-p3": "<span style='font-family: sans-serif;'>&Omega;<sub>ar</sub> = 1 doygunluktur. (Deniz suyu aşırı doymuş: &Omega;<sub>ar</sub> ≈ 3.</span>)",
-	
 	"six-title-a": "",
 	"six-title-b": "Yeşil Bölge",
 	"six-title-c": "",
@@ -62,14 +60,12 @@
 	"seven-p1-a": "Türünüzü iyi büyüme ve hayatta kalma için ",
 	"seven-p1-b": "Yeşil Bölge",
 	"seven-p1-c": " içinde tutan bir rota çizebilirsiniz.",
-
 	"seven-p2-a": "Harita raptiyesi ",
 	"seven-p2-b": " dışında bulunur ",
 	"seven-p2-c": "Yeşil Bölge'nin.",
 	"seven-p2-d": " Hangi güvenli alanlara ulaştıklarını görmek için bir veya iki reaktif seçin.",
 	"seven-ceiling": "(burada, 'pH tavanı' tarafından sınırlanmayan havalandırma)",
 	"seven-p3": "Bu yararlı niteliksel bir bilgidir, ancak harita aynı zamanda kültür ortamınızın hassas kontrolü için reaktifler önerir <small>(aşağıya bakın)</small>.",
-	
 	"end-navigate": "WQ ortamınızda gezinin",
 	"end-p1-a": "Ekran görüntüsü, hedef yol noktasına ulaşmak için Water Quality Map tarafından hesaplanan ayarlama yönlerinin bir örneğini gösterir",
 	"end-p1-b": "ve ana iyon oranlarını korur.",
