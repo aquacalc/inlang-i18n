@@ -5,7 +5,7 @@
 	"welcome": "<h1 style='color: red;'>Welcome <span style='color: blue;'>to inlang</span></h1>",
 	"p1": "Maintaining healthy culture water means managing water chemistry.",
 	"p2": "But water chemistry is a tech topic filled with equations and confusing concepts.",
-	"p3": "That's a pain-point for many aquaculturists, especially in recirc systems (<strong style='font-weight: 400; color: var(--about-text-highlight)'>RAS</strong>).",
+	"p3": "That's a pain point for many aquaculturists, especially in recirc systems (<strong style='font-weight: 400; color: var(--about-text-highlight)'>RAS</strong>).",
 	"block": "A visual approach makes managing water quality (<strong style='font-weight: 400; color: var(--about-text-highlight)'>WQ</strong>) so simple that anyone who can use Google Maps can manage their culture environment with the <span style='color: var(--about-text-highlight);''>Water Quality Map</span>.",
 	"below": "Below, a 6-step interactive intro to visual WQ control with the <span style='color: var(--about-text-highlight);'>Water Quality Map</span>.",
 	"one-title": "A topographic map of pH",
