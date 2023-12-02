@@ -855,7 +855,7 @@
 				<!-- {/if} -->
 
 				<!-- ** -- GREEN ZONE -- ** -->
-				{#if (step === 5 && $showHideGreenZone) || step === 7}
+				{#if (step === 5 && $showHideGreenZone) || step === 6 || step === 7}
 					<g in:fly={{ x: -400, y: 300, duration: 750 }} out:fade>
 						<GreenZone
 							gzPoints={[...wqMapData.gzCoords, wqMapData.gzCoords[0]]}
