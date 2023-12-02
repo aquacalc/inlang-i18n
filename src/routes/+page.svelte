@@ -20,6 +20,7 @@
 
 	let value = 0;
 
+	// Num steps in scrolly
 	const stepArray = [0, 1, 2, 3, 4, 5, 6];
 
 	// ** -- Adjust step element attrs based on step value -- ** //
