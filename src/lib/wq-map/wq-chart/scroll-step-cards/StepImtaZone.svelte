@@ -1,6 +1,10 @@
 <script>
 	// import { ToggleSwitch } from 'fluent-svelte';
-	import { showHideGreenZone, showHideMarineAlgaeZone, showHideHorticultureZone } from '../../../wq-stores/WqMapStateStoreScrolly';
+	import {
+		showHideGreenZone,
+		showHideMarineAlgaeZone,
+		showHideHorticultureZone
+	} from '../../../wq-stores/WqMapStateStoreScrolly';
 
 	// see: https://www.youtube.com/watch?v=Y6IbPfMU1xM
 	import { i, languages, language, switchLanguage } from '@inlang/sdk-js';
@@ -11,9 +15,7 @@
 
 <h4 class="index-of-count" class:active={value + 1 === step}>{step} of 7</h4>
 <h3 class="step-title" class:active={value + 1 === step}>
-	{@html i('imta-title-a')}<span style="color: {value + 1 === step ? 'green' : '#ccc'};"
-		>{@html i('imta-title-b')}</span
-	>{@html i('imta-title-c')}
+	{@html i('imta-title-a')}<span>{@html i('imta-title-b')}</span>{@html i('imta-title-c')}
 </h3>
 
 <section class:active={value + 1 === step}>
@@ -33,7 +35,7 @@
 	<!-- </section> -->
 
 	<div style="text-align: center;">
-		<label for="green-zone">
+		<!-- <label for="green-zone">
 			<input
 				type="checkbox"
 				id="green-zone"
@@ -49,7 +51,7 @@
 					? 'green'
 					: '#ccc'}; font-family: sans-serif; font-size: 1.05rem;">{i('six-gz')}</span
 			></label
-		>
+		> -->
 	</div>
 
 	<!-- <section class:active={value + 1 === step} style="margin-top: 0.5rem;"> -->
