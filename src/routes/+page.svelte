@@ -15,7 +15,7 @@
 	import StepGreenZone from '$lib/wq-map/wq-chart/scroll-step-cards/StepGreenZone.svelte';
 	import StepWhatCanYouDo from '$lib/wq-map/wq-chart/scroll-step-cards/StepWhatCanYouDo.svelte';
 	import StepOmegaArZone from '$lib/wq-map/wq-chart/scroll-step-cards/StepOmegaArZone.svelte';
-	import StepImtaZone from '../lib/wq-map/wq-chart/scroll-step-cards/StepIMTAZone.svelte';
+	import StepImtaZone from '../lib/wq-map/wq-chart/scroll-step-cards/StepImtaZone.svelte';
 
 	import '$lib/styles/wq-step-styles.css';
 
