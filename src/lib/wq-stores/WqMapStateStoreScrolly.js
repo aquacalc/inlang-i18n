@@ -215,6 +215,24 @@ export const showHideOmegaArZone = ourStore(
 	[JSON.parse]
 );
 
+// ** Aquaponics & IMTA ** //
+
+// Show/Hide Horticulture Zone
+export const showHideHorticultureZone = ourStore(
+	'showHideHorticultureZone',
+	false,
+	[JSON.stringify],
+	[JSON.parse]
+);
+
+// Show/Hide MarineAlgae Zone
+export const showHideMarineAlgaeZone = ourStore(
+	'showHideMarineAlgaeZone',
+	false,
+	[JSON.stringify],
+	[JSON.parse]
+);
+
 // Omega-ar slider
 export const omegaArValue = ourStore('omegaArValue', 3.0, [JSON.stringify], [JSON.parse]);
 

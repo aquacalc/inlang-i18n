@@ -1,6 +1,6 @@
 <script>
 	// import { ToggleSwitch } from 'fluent-svelte';
-	import { showHideGreenZone } from '../../../wq-stores/WqMapStateStoreScrolly';
+	import { showHideGreenZone, showHideMarineAlgaeZone, showHideHorticultureZone } from '../../../wq-stores/WqMapStateStoreScrolly';
 
 	// see: https://www.youtube.com/watch?v=Y6IbPfMU1xM
 	import { i, languages, language, switchLanguage } from '@inlang/sdk-js';
@@ -11,9 +11,9 @@
 
 <h4 class="index-of-count" class:active={value + 1 === step}>{step} of 7</h4>
 <h3 class="step-title" class:active={value + 1 === step}>
-	{@html i('six-title-a')}<span style="color: {value + 1 === step ? 'green' : '#ccc'};"
-		>{@html i('six-title-b')}</span
-	>{@html i('six-title-c')}
+	{@html i('imta-title-a')}<span style="color: {value + 1 === step ? 'green' : '#ccc'};"
+		>{@html i('imta-title-b')}</span
+	>{@html i('imta-title-c')}
 </h3>
 
 <section class:active={value + 1 === step}>
