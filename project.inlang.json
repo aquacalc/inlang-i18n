@@ -1,0 +1,36 @@
+{
+    "$schema": "https://inlang.com/schema/project-settings",
+    "sourceLanguageTag": "en",
+    "languageTags": [
+        "ar",
+        "ba",
+        "br",
+        "ch",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "gr",
+        "hi",
+        "il",
+        "ml",
+        "th",
+        "tr"
+    ],
+    "modules": [
+        "https://cdn.jsdelivr.net/npm/@inlang/plugin-json@4/dist/index.js",
+        "https://cdn.jsdelivr.net/npm/@inlang/sdk-js-plugin@0.6.2/dist/index.js"
+    ],
+    "plugin.inlang.json": {
+        "pathPattern": "./languages/{languageTag}.json"
+    },
+    "plugin.inlang.sdkJs": {
+        "languageNegotiation": {
+            "strategies": [
+                {
+                    "type": "localStorage"
+                }
+            ]
+        }
+    }
+}
