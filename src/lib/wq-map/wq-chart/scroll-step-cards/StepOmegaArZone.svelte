@@ -22,9 +22,10 @@
 	$: tMyOmegaAr.set($omegaArValue);
 </script>
 
-<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 6</h4>
+<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 7</h4>
 <h3 class="step-title" class:active={value + 1 === step}>
-	{@html i('five-title-a')} <span style="color: {value + 1 === step ? 'rebeccapurple' : '#ccc'};"
+	{@html i('five-title-a')}
+	<span style="color: {value + 1 === step ? 'rebeccapurple' : '#ccc'};"
 		>{@html i('five-title-b')}</span
 	>{@html i('five-title-c')}
 </h3>

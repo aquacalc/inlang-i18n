@@ -70,10 +70,11 @@
 	$: tMyCritPhNbsMillero.set(critPhNbsMillero);
 </script>
 
-<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 6</h4>
+<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 7</h4>
 <h3 class="step-title" class:active={value + 1 === step}>
 	{@html i('three-title-a')}
-	<span style="color: {value + 1 === step ? '#bf0d0d' : '#ccc'};">{@html i('three-title-b')}</span> {@html i('three-title-c')}
+	<span style="color: {value + 1 === step ? '#bf0d0d' : '#ccc'};">{@html i('three-title-b')}</span>
+	{@html i('three-title-c')}
 </h3>
 
 <section class:active={value + 1 === step}>

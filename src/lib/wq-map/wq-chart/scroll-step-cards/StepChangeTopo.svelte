@@ -34,7 +34,7 @@
 	$: $tempObjTest.icInput = $tempObjTest.input + 273.15;
 </script>
 
-<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 6</h4>
+<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 7</h4>
 <!-- <h3 class="step-title" class:active={value + 1 === step}>A topographic map of pH</h3> -->
 <h3 class="step-title" class:active={value + 1 === step}>{i('one-title')}</h3>
 <section class:active={value + 1 === step}>
@@ -52,7 +52,7 @@
 	<p>{i('one-p3')}</p>
 
 	<hr />
-	
+
 	<small>
 		<!-- <em>Changing temperature &amp; salinity changes the pH topography.</em> -->
 		<em>{@html i('one-p4')}</em>

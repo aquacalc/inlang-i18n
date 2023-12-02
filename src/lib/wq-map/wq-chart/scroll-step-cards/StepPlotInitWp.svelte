@@ -126,12 +126,13 @@
 	// $: console.log(`myDic = ${myDic} mmol/kg`);
 </script>
 
-<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 6</h4>
+<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 7</h4>
 <h3 class="step-title" class:active={value + 1 === step}>{i('two-title')}</h3>
 
 <section class:active={value + 1 === step}>
 	<p>
-		{i('two-p1a')} <svg
+		{i('two-p1a')}
+		<svg
 			version="1.1"
 			class="fa-icon s-0fuyeY-3QfUe"
 			width="12.8"
@@ -148,7 +149,7 @@
 	</p>
 
 	<p>
-		{@html i('two-p2')} 
+		{@html i('two-p2')}
 	</p>
 
 	<hr />

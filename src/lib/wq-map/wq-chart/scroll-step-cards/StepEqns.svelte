@@ -4,7 +4,7 @@
 </script>
 
 <div>
-	<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 6</h4>
+	<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 7</h4>
 	<h3 class="step-title" class:active={value + 1 === step}>Water chemistry is complicated</h3>
 
 	<section class:active={value + 1 === step}>

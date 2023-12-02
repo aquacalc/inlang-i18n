@@ -9,9 +9,11 @@
 	export let step = 1;
 </script>
 
-<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 6</h4>
+<h4 class="index-of-count" class:active={value + 1 === step}>{step} of 7</h4>
 <h3 class="step-title" class:active={value + 1 === step}>
-	{@html i('six-title-a')}<span style="color: {value + 1 === step ? 'green' : '#ccc'};">{@html i('six-title-b')}</span>{@html i('six-title-c')}
+	{@html i('six-title-a')}<span style="color: {value + 1 === step ? 'green' : '#ccc'};"
+		>{@html i('six-title-b')}</span
+	>{@html i('six-title-c')}
 </h3>
 
 <section class:active={value + 1 === step}>
