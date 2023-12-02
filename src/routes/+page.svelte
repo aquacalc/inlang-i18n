@@ -141,8 +141,6 @@
 	<h1 style="text-align: center;">{i('hero')}</h1>
 </div>
 
-<h2>Yadda yadda...</h2>
-
 <!-- <p>
 	{@html i('welcome')}
 </p> -->
