@@ -15,12 +15,13 @@
 	import StepGreenZone from '$lib/wq-map/wq-chart/scroll-step-cards/StepGreenZone.svelte';
 	import StepWhatCanYouDo from '$lib/wq-map/wq-chart/scroll-step-cards/StepWhatCanYouDo.svelte';
 	import StepOmegaArZone from '$lib/wq-map/wq-chart/scroll-step-cards/StepOmegaArZone.svelte';
+	import StepImtaZone from '../lib/wq-map/wq-chart/scroll-step-cards/StepIMTAZone.svelte';
 
 	import '$lib/styles/wq-step-styles.css';
 
 	let value = 0;
 
-	const stepArray = [0, 1, 2, 3, 4, 5, 6];
+	const stepArray = [0, 1, 2, 3, 4, 5, 6, 7];
 
 	// ** -- Adjust step element attrs based on step value -- ** //
 	$: {
@@ -195,7 +196,9 @@
 						{:else if idx === 5}
 							<StepGreenZone {value} step={6} />
 						{:else if idx === 6}
-							<StepWhatCanYouDo {value} step={7} />
+							<StepImtaZone {value} step={7} />
+						{:else if idx === 7}
+							<StepWhatCanYouDo {value} step={8} />
 						{/if}
 					</div>
 				</div>
