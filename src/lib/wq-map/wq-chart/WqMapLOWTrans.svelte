@@ -855,7 +855,7 @@
 				<!-- {/if} -->
 
 				<!-- ** -- GREEN ZONE -- ** -->
-				{#if (step === 5 && $showHideGreenZone) || step === 6}
+				{#if (step === 5 && $showHideGreenZone) || step === 7}
 					<g in:fly={{ x: -400, y: 300, duration: 750 }} out:fade>
 						<GreenZone
 							gzPoints={[...wqMapData.gzCoords, wqMapData.gzCoords[0]]}
@@ -909,7 +909,7 @@
 
 				<!-- ** -- BICARB or CARB line -- ** -->
 				<!-- {#if step >= 6} -->
-				{#if step === 6 && ($showHideBicarb || $showHideCarb || $showHideCaOh2 || $showHideAeration)}
+				{#if step === 7 && ($showHideBicarb || $showHideCarb || $showHideCaOh2 || $showHideAeration)}
 					{#if $showHideBicarb && $showHideCarb}
 						<g>
 							<AdjZoneBicarbCarb
@@ -1326,7 +1326,7 @@
 				{/if}
 
 				<!-- Show initial WP AGAIN (for last step) -->
-				{#if step === 6}
+				{#if step === 7}
 					<g class="my-icon" transform={`translate(${$tX}, ${$tY})`}>
 						<Icon data={mapPin} scale="2" style="fill: red; opacity: 0.5;" />
 					</g>

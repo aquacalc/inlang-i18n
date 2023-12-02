@@ -115,13 +115,13 @@
 		}
 
 		// [NB] (Re-)display init WP at default position
-		if (value === 6) {
+		if (value === 7) {
 			// Re-set default pH topo
 			phSlider.value = 6.75;
 			alkSlider.value = 2.2;
 		}
 
-		if (value < 6 && nahco3Checkbox && na2co3Checkbox && caoh2Checkbox && aerationCheckbox) {
+		if (value < 7 && nahco3Checkbox && na2co3Checkbox && caoh2Checkbox && aerationCheckbox) {
 			nahco3Checkbox.checked = false;
 			na2co3Checkbox.checked = false;
 			caoh2Checkbox.checked = false;
