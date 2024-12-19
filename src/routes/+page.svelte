@@ -273,7 +273,7 @@
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			<span style="font-family: sans-serif;">—Nick/ Staresinic</span></a
+			<span style="font-family: sans-serif;">—Nick/ Staresinic (aquacalc@protonmail.ch)</span></a
 		>
 	</p>
 

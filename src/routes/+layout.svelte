@@ -117,7 +117,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 					style="font-size: 1.75rem;"
-					title="Contact..."
+					title="aquacalc@protonmail.ch"
 				>
 					<span style="font-family: sans-serif;"> ✉️</span></a
 				>
